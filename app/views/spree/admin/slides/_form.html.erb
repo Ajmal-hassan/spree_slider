@@ -56,13 +56,6 @@
 
   <div class="col-md-6">
     <%= f.field_container :image do %>
-      <% if f.object.image? %>
-        <p>
-          <%= label_tag t(:preview) %>
-          <br>
-          <%= image_tag f.object.image.url, class: 'img-responsive' %>
-        </p>
-      <% end %>
     <% end %>
   </div>
 
